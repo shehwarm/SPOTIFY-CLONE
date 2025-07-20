@@ -200,3 +200,63 @@ a{
     border-top: 1px solid white;
     opacity: 0.4 ;
 }
+
+.music-player{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.album {
+    width:25%;
+}
+.player {
+    width: 50%;
+}
+
+.controls {
+    width: 25%;
+}
+.player-control {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.player-control-icon {
+    height: 1rem;
+    margin-right: 1.75rem;
+    opacity: 0.7;
+}
+
+.player-control-icon:hover {
+    opacity: 1;
+}
+
+.playback-bar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.progress-bar {
+    width: 70%;
+    appearance: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.progress-bar::-webkit-slider-runnable-track {
+    height: 0.2rem;
+    background-color: #ddd;
+    border-radius:100px;
+}
+
+.progress-bar::-webkit-slider-thumb {
+    height: 1rem;
+    width: 1rem;
+    background-color: #1bd760;
+    border-radius: 50%;;
+    appearance: none;
+    margin-top: -6px;
+}
