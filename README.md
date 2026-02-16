@@ -21,7 +21,7 @@ This project is a simple Spotify Clone built with HTML and CSS.
 - Edit `index.html` and `style.css` to add more features or change the design.
 
 ## Screenshots
-![All Songs](./Screenshots/Spotify.png)
+![All Songs](./Screenshots/Spotify.PNG)
 ![Trending Songs](./Screenshots/Spotify1.png)
 
 
